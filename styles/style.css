@@ -1,0 +1,32 @@
+html {
+    font-size: 16px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: #fce1c7;
+}
+h2 {
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+footer {
+    background-color: #aaddf8;
+    width: 100%;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+ul.horizontal-list {
+    list-style: none;
+}
+ul.horizontal-list li {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+ul.horizontal-list li:not(:first-child):not(:last-child) {
+    border-right: 1px solid black;
+}
+  
+  
+  

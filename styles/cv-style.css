@@ -45,6 +45,26 @@ h3 {
 h4 {
     font-weight: 600;
 }
+h5 {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.period {
+    font-weight: 100;
+    font-style: italic;
+}
+.block {
+    padding-top: 10px;
+}
+.secondary {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.location {
+    font-size: 0.91rem;
+    font-style: italic;
+    padding-bottom: 0.2rem;
+}
 .personal {
     background-color: darkgrey;
 }

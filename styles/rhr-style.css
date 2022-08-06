@@ -4,9 +4,11 @@ html {
 }
 body {
     display: grid;
-    grid-template: .5fr .5fr .5fr repeat(5, 120px) / repeat(7, 120px);
+    grid-template: .5fr .5fr .5fr repeat(5, 120px) 3rem / repeat(7, 120px);
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 h1 {
     grid-row: 1 / 2;
@@ -30,4 +32,9 @@ h3 {
 }
 .cell p {
     font-size: large;
+}
+footer {
+    grid-row: 9 / 10;
+    grid-column: 1 / span 7;
+    margin: 10px;
 }

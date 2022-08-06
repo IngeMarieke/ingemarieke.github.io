@@ -17,9 +17,23 @@ h1 {
 }
 h2 {
     grid-row: 2 / 3;
-    grid-column: 1 / span 7;
+    grid-column: 3 / span 3;
     margin: 0px;
     padding: 0px;
+}
+button {
+    background-color: white;
+    width: 120px;
+    align-self: center;
+    justify-self: center;
+}
+#previous {
+    grid-row: 2 / 3;
+    grid-column: 1 / span 2;
+}
+#next {
+    grid-row: 2 / 3;
+    grid-column: 6 / span 2;
 }
 h3 {
     margin: 0;

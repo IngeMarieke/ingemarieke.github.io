@@ -6,7 +6,7 @@
     margin: 0px;
     border: 0px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 7cm) {
     .box {
         width: 100vw;
     }

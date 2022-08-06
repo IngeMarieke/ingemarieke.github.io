@@ -22,11 +22,28 @@ h2 {
     padding: 0px;
 }
 button {
-    background-color: white;
-    width: 120px;
-    align-self: center;
+    border: 0;
+    line-height: 2.5;
+    width: 140px;
     justify-self: center;
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: Montserrat;
+    background-color: rgb(213, 213, 213);
+    box-shadow: inset 1px 1px 0px rgba(255, 255, 255, .6),
+                inset -1px -1px 0px rgba(0, 0, 0, .6);
 }
+
+button:hover {
+    background-color: rgb(147, 147, 147);
+}
+
+button:active {
+    box-shadow: inset -1px -1px 0px rgba(255, 255, 255, .6),
+                inset 1px 1px 0px rgba(0, 0, 0, .6);
+    background-color: rgb(213, 213, 213);
+    }
+
 #previous {
     grid-row: 2 / 3;
     grid-column: 1 / span 2;
@@ -51,4 +68,7 @@ footer {
     grid-row: 9 / 10;
     grid-column: 1 / span 7;
     margin: 10px;
+}
+.cell:hover p {
+    font-size: xx-large;
 }
